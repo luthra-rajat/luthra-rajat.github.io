@@ -1,0 +1,52 @@
+@media (max-width: 900px) {
+
+    nav {
+
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    nav ul {
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero h2 {
+        font-size: 1.2rem;
+    }
+
+    #stats {
+        grid-template-columns: 1fr;
+    }
+
+    .expertise-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .profile-photo {
+
+        width: 160px;
+
+        height: 160px;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .expertise-grid {
+        grid-template-columns: 1fr;
+    }
+
+}

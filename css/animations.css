@@ -1,0 +1,47 @@
+.hero-buttons a {
+
+    transition: all .3s ease;
+}
+
+.hero-buttons a:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 12px 30px rgba(0,0,0,.15);
+}
+
+.card {
+
+    transition: .3s;
+}
+
+.card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 18px 40px rgba(0,0,0,.12);
+}
+
+.expertise-card {
+
+    transition: .3s;
+}
+
+.expertise-card:hover {
+
+    transform: scale(1.03);
+
+    background: #0b2545;
+
+    color: white;
+}
+
+.timeline-item {
+
+    transition: .3s;
+}
+
+.timeline-item:hover {
+
+    transform: translateX(8px);
+}
